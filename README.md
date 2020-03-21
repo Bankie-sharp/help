@@ -31,11 +31,12 @@ public class AxeHit : MonoBehaviour
         {
             if (hit.collider.tag == "tree" && Input.GetMouseButton(0) && isEquiped == true)
             {
-                //Tree treeScript = hit.collider.gameObject.GetComponent<Tree>();
-                //Tree treeScript = hit.collider.gameObject.GetComponent<Tree>();
-                //treeScript.treeHealth -- ;
+               
+               //Tree treeScript = hit.collider.gameObject.GetComponent<Tree>();This doesn't seem to work please help
+                //Tree treeScript = hit.collider.gameObject.GetComponent<Tree>();This doesn't seem to work please help
+                //treeScript.treeHealth -- ;This doesn't seem to work please help
                  
-                 Debug.Log(hit.transform.name);
+                 //Debug.Log(hit.transform.name); "This does work just remove slashes and text inbetween "
                 //Debug.Log(treeScript.treeHealth);
                 // print ("Hey");
             }
